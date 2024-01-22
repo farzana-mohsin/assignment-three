@@ -38,5 +38,67 @@
       }
     </style>
   </head>
-  <body class="font-manrope"></body>
+  <body class="font-manrope">
+    <header>
+      <nav></nav>
+      <!-- banner -->
+      <section class="container mx-auto px-8 lg:px-24 my-14">
+        <div class="carousel w-full lg:h-[500px]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="images/1.png" class="w-full object-cover" />
+            <div
+              class="absolute transform -translate-y-1/2 left-5 right-5 bottom-1 space-x-3"
+            >
+              <a href="#slide3" class="btn btn-circle bg-gray-950 text-slate-50"
+                >❮</a
+              >
+              <a href="#slide2" class="btn btn-circle bg-gray-950 text-slate-50"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/hockey.jpeg" class="w-full object-cover" />
+            <div
+              class="absolute transform -translate-y-1/2 left-5 right-5 bottom-1 space-x-3"
+            >
+              <a href="#slide1" class="btn btn-circle bg-gray-950 text-slate-50"
+                >❮</a
+              >
+              <a href="#slide3" class="btn btn-circle bg-gray-950 text-slate-50"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/OtherSkills.jpg" class="w-full object-fill" />
+            <div
+              class="absolute transform -translate-y-1/2 left-5 right-5 bottom-1 space-x-3"
+            >
+              <a href="#slide2" class="btn btn-circle bg-gray-950 text-slate-50"
+                >❮</a
+              >
+              <a href="#slide1" class="btn btn-circle bg-gray-950 text-slate-50"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-end lg:relative">
+          <div
+            class="bg-black text-white lg:w-1/2 rounded-2xl p-8 space-y-4 lg:absolute bottom-8 right-8"
+          >
+            <h3 class="text-2xl font-extrabold">
+              Meet all the heroes from the field
+            </h3>
+            <p class="opacity-55 font-medium">
+              The first years of hockey need to be a positive experience. A fun
+              and exciting start gives young players the opportunity to enjoy
+              hockey for life!
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>
