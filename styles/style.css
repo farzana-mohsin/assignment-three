@@ -1,0 +1,12 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+.radial {
+  --size: 9rem;
+  --thickness: 12px;
+}
+.program {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
