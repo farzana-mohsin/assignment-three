@@ -40,6 +40,7 @@
   </head>
   <body>
     <header>
+      <!-- navigation -->
       <nav class="container mx-auto px-8 lg:px-24 my-12">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -71,7 +72,7 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost gap-0 text-lg lg:text-4xl font-extrabold"
+            <a class="btn btn-ghost gap-0 text-xl lg:text-4xl font-extrabold"
               >Hockey<span class="text-bg-btn">’</span>s</a
             >
           </div>
@@ -111,12 +112,16 @@
           <div id="slide1" class="carousel-item relative w-full">
             <img src="images/1.png" class="w-full object-cover" />
             <div
-              class="absolute transform -translate-y-1/2 left-5 right-5 bottom-1 space-x-3"
+              class="absolute transform -translate-y-0.5 left-5 bottom-3 space-x-3"
             >
-              <a href="#slide3" class="btn btn-circle bg-gray-950 text-slate-50"
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-gray-950 text-xl font-extrabold text-slate-50"
                 >❮</a
               >
-              <a href="#slide2" class="btn btn-circle bg-gray-950 text-slate-50"
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-gray-950 text-slate-50 text-xl font-extrabold"
                 >❯</a
               >
             </div>
@@ -126,10 +131,14 @@
             <div
               class="absolute transform -translate-y-1/2 left-5 right-5 bottom-1 space-x-3"
             >
-              <a href="#slide1" class="btn btn-circle bg-gray-950 text-slate-50"
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-gray-950 text-slate-50 text-xl font-extrabold"
                 >❮</a
               >
-              <a href="#slide3" class="btn btn-circle bg-gray-950 text-slate-50"
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-gray-950 text-slate-50 text-xl font-extrabold"
                 >❯</a
               >
             </div>
@@ -139,10 +148,14 @@
             <div
               class="absolute transform -translate-y-1/2 left-5 right-5 bottom-1 space-x-3"
             >
-              <a href="#slide2" class="btn btn-circle bg-gray-950 text-slate-50"
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-gray-950 text-slate-50 text-xl font-extrabold"
                 >❮</a
               >
-              <a href="#slide1" class="btn btn-circle bg-gray-950 text-slate-50"
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-gray-950 text-slate-50 text-xl font-extrabold"
                 >❯</a
               >
             </div>
@@ -166,7 +179,7 @@
     </header>
     <main>
       <!-- professional section -->
-      <section class="container mx-auto px-4 lg:px-24 py-10">
+      <section class="container mx-auto px-4 lg:px-24 py-10 my-20">
         <div class="border-dashed border-2 border-slate-200"></div>
         <div class="space-y-6 text-center">
           <h1 class="text-3xl lg:text-5xl font-extrabold pt-10">
@@ -248,16 +261,16 @@
         </div>
       </section>
       <!-- Program Sections -->
-      <section class="container mx-auto px-8 lg:px-24 mb-20">
+      <section class="container mx-auto px-8 lg:px-24 my-20">
         <div class="border-dashed border-2 border-slate-200"></div>
-        <h2 class="text-3xl lg:text-5xl font-extrabold text-center py-8">
+        <h2 class="text-3xl lg:text-5xl font-extrabold text-center py-5 my-8">
           Program Sections
         </h2>
-        <p class="text-center opacity-60 mb-10">
+        <p class="text-center opacity-60 mb-8">
           We offer different types of programs for different age groups. Please
           choose from them that best fit to your needs.
         </p>
-        <div class="border-dashed border-2 border-slate-200 mb-10"></div>
+        <div class="border-dashed border-2 border-slate-200 my-20"></div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-white">
           <!-- image-1 -->
           <div
@@ -333,7 +346,7 @@
         </div>
       </section>
       <!-- New Products -->
-      <section class="container mx-auto px-8 lg:px-24 py-5">
+      <section class="container mx-auto px-8 lg:px-24 py-5 my-20">
         <div class="border-dashed border-2 border-slate-200"></div>
         <div>
           <h2 class="text-3xl lg:text-5xl font-extrabold text-center py-8">
@@ -344,7 +357,7 @@
             content, this product represents just one of our solutions to help
             end plastic waste
           </p>
-          <div class="border-dashed border-2 border-slate-200"></div>
+          <div class="border-dashed border-2 border-slate-200 my-20"></div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-16">
           <!-- card-1 -->
@@ -610,7 +623,7 @@
         </div>
       </section>
       <!-- Form section -->
-      <section class="container mx-auto px-8 lg:px-24 mb-20">
+      <section class="container mx-auto px-8 lg:px-24 my-20">
         <div class="border-dashed border-2 border-slate-200"></div>
         <h2 class="text-3xl lg:text-5xl font-extrabold text-center py-8">
           Get In Touch
@@ -620,19 +633,25 @@
           we will do our best to answer it.
         </p>
         <div class="border-dashed border-2 border-slate-200"></div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 my-16">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 my-20">
           <div class="col-span-1 space-y-8 p-12 border-2 rounded-xl">
-            <div class="h-fit bg-lime-50 rounded-2xl p-10 space-y-3">
+            <div
+              class="h-fit bg-lime-50 rounded-2xl py-10 pr-14 pl-10 space-y-3"
+            >
               <img src="images/Group 1171275317.png" alt="" />
               <p class="opacity-60">Phone Number:</p>
               <h4 class="text-base font-extrabold">(+62) 123-321-543</h4>
             </div>
-            <div class="h-fit bg-amber-50 rounded-2xl p-12 space-y-3">
+            <div
+              class="h-fit bg-amber-50 rounded-2xl py-10 pr-14 pl-10 space-y-3"
+            >
               <img src="images/Group 1171275318.png" alt="" />
               <p class="opacity-60">Email:</p>
               <h4 class="text-base font-extrabold">hockeys@support.com</h4>
             </div>
-            <div class="h-fit bg-teal-50 rounded-2xl p-12 space-y-3">
+            <div
+              class="h-fit bg-teal-50 rounded-2xl py-10 pr-14 pl-10 space-y-3"
+            >
               <img src="images/Group 1171275321.png" alt="" />
               <p class="opacity-60">Location:</p>
               <h4 class="text-base font-extrabold">
@@ -705,35 +724,37 @@
     <footer
       class="bg-black text-white flex flex-col lg:flex-row justify-center lg:justify-around p-10 items-center text-center"
     >
-      <div class="space-y-5 mb-5">
-        <header class="text-2xl font-extrabold">Get In Touch</header>
-        <h4 class="opacity-60 my-10">Group Session</h4>
-        <div class="flex gap-2 opacity-60">
+      <div class="space-y-6 mb-8">
+        <header class="text-4xl font-extrabold">Get In Touch</header>
+        <h4 class="opacity-60 my-10 w-fit text-center">
+          Email or call us with any questions
+        </h4>
+        <div class="flex gap-2 opacity-80 text-center">
           <img src="images/letter.svg" alt="" />hockeys@support.com
         </div>
-        <div class="flex gap-2 opacity-60">
+        <div class="flex gap-2 opacity-80 text-center">
           <img src="images/phone.svg" alt="" />(+62) 123-321-543
         </div>
       </div>
       <div class="flex flex-row justify-between gap-20 lg:gap-56">
-        <div class="space-y-3 mb-5">
-          <header class="text-2xl font-extrabold">Company</header>
+        <div class="space-y-4 my-5">
+          <header class="text-lg font-bold mb-8">Company</header>
           <p><a class="link link-hover opacity-60">About Us</a></p>
           <p><a class="link link-hover opacity-60">Leadership</a></p>
           <p><a class="link link-hover opacity-60">Careers</a></p>
           <p><a class="link link-hover opacity-60">News and Article</a></p>
           <p><a class="link link-hover opacity-60">Legal Notice</a></p>
         </div>
-        <div class="space-y-3 mb-5">
-          <header class="text-2xl font-extrabold">Support</header>
+        <div class="space-y-4 my-5">
+          <header class="text-lg font-bold mb-8">Support</header>
           <p><a class="link link-hover opacity-60">Help Center</a></p>
           <p><a class="link link-hover opacity-60">FAQ</a></p>
           <p><a class="link link-hover opacity-60">Ticket Support</a></p>
           <p><a class="link link-hover opacity-60">Contact Us</a></p>
         </div>
       </div>
-      <div class="space-y-3 mb-5">
-        <header class="text-2xl font-extrabold">Services</header>
+      <div class="space-y-4 my-5">
+        <header class="text-lg font-bold mb-8">Services</header>
         <p><a class="link link-hover opacity-60">Academy</a></p>
         <p><a class="link link-hover opacity-60">Group Session</a></p>
         <p><a class="link link-hover opacity-60">Private Lesson</a></p>
